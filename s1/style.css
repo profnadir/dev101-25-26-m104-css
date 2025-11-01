@@ -1,0 +1,49 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+
+.demo{
+    background-color: aqua;
+    width: 100vw;
+    height: 50vh;
+} */
+
+div{
+    background-color: violet;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.demo1{
+    width: 200px;
+    height: 50px;
+}
+
+.demo2{
+    width: 2in;
+    height: 2in;
+}
+
+.demo3{
+    width: 5cm;
+    height: 2cm
+}
+
+html{
+    font-size: 16px;
+}
+
+.parent{
+    font-size: 20px;
+}
+
+.uem{
+    font-size: 1.5em;/* 30px taille parent : 20*1.5=30px */
+}
+
+.urem{
+    font-size: 1.5rem; /* r:racine taille racine 16*1.5=24px */
+}
