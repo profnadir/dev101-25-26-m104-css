@@ -1,0 +1,80 @@
+@font-face {
+    font-family: dev101;
+    src: url(fonts/MomoSignature-Regular.ttf);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font fallback - safe font  */
+    /* font-size: 16px;  par defaut */
+    font-size: 1em;
+    background-color: pink;
+    background-image: url(craft.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+p {
+    font-size: 80%;
+    /* (15 * 80)/100 = 12em => 12*16 = 192px  */
+}
+
+h1 {
+    font-weight: bold;
+
+    /* text-decoration: underline dashed red 10px; */
+
+    text-decoration-line: underline;
+    text-decoration-style: dashed ;
+    text-decoration-color: red ;
+    text-decoration-thickness: 10px;
+
+
+    text-transform: uppercase;
+    font-family: dev101;
+    text-align: center;
+
+    background-color: green;
+}
+
+#paragraphe1 {
+    line-height: 1em;
+    letter-spacing: 0.4em;
+    word-spacing: 0.6em;
+    width: 400px;
+    text-align: justify;
+    background-color: yellow;
+
+    border: 10px solid green; /* Shorthand */
+
+/*     border-top: 10px solid green;
+    border-bottom: 10px solid green;
+    border-left: 10px solid green;
+    border-right: 10px solid green; */
+
+}
+
+#paragraphe2 {
+    font: italic bold 100% Arial, Helvetica, sans-serif;
+    background-color: blue;
+    
+    /* 
+        ==
+        font-style
+        font-weight
+        font-size
+        font-family
+    
+    */
+}
+
+ul{
+    background-color: purple !important;
+    background-color: aqua;
+}
+
+span{
+    background-color: burlywood;
+}
