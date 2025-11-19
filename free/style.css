@@ -1,0 +1,43 @@
+.red{
+    position: absolute;
+    top: 0;
+    width: 225px;
+    border-top: 75px solid transparent;
+    border-left: 75px solid red;
+    border-bottom: 75px solid transparent;
+    transition: animation;
+    animation: dev101 4s infinite;
+}
+
+.black{
+    height: 50px;
+    background-color: black;
+    width: 300px;
+}
+
+.white{
+    height: 50px;
+    background-color: white;
+    width: 300px;
+}
+
+.green{
+    height: 50px;
+    background-color: green;
+    width: 300px;
+}
+
+.flag{
+    position: relative;
+}
+
+@keyframes dev101 {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    100%{
+        bottom: 0;
+        right: 0;
+    }
+}
