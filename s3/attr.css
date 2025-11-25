@@ -1,0 +1,48 @@
+/* 1. [href] : tout lien qui possède un href */
+        
+a[title]{
+ background-color: red;
+}
+
+/* 2. [href="https://google.com"] : valeur exacte */
+       
+a[href="https://google.com"]{
+    background-color: yellow;
+}
+
+/* 3. [href^="https"] : commence par https */
+        
+a[href^="https"]{
+    background-color: green;
+}
+
+/* 4. [href$=".pdf"] : se termine par .pdf */
+       a[href$=".pdf"]{
+        background-color: blueviolet;
+       }
+
+/* 5. [href*="login"] : contient le mot login */
+       
+a[href*="login"]{
+    background-color: chartreuse;
+}
+
+/* 6. [target="_blank"] : liens ouvrant un nouvel onglet */
+        
+a[target="_blank"]{
+    background-color: crimson;
+}
+
+/* 7. [class~="btn"] : mot "btn" dans la liste des classes */
+        a[class~="btn"]{
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        
+        a[class~="btn"]:hover{
+            color: red;
+            background-color: white;
+            border: 1px solid red;
+        }

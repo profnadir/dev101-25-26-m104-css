@@ -1,0 +1,29 @@
+header{
+    height: 100px;
+    background-color: blueviolet;
+}
+nav{
+    height: 300px;
+    background-color: violet;
+    width: 25%;
+    float: left;
+}
+section{
+    height: 300px;
+    background-color: pink;
+    width: 50%;
+    float: left;
+}
+aside{
+    height: 300px;
+    background-color: violet;
+    width: 25%;
+    float: left;
+}
+.clear{
+    clear: both;
+}
+footer{
+    height: 100px;
+    background-color: blueviolet;
+}

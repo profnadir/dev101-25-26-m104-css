@@ -1,0 +1,26 @@
+.demo1{
+    background-color: red;
+}
+
+.center{
+    text-align: center;
+}
+
+
+span.demo1{
+    color: white;
+}
+
+p.demo1{
+    font-size: 25px;
+}
+
+
+p#test{
+
+}
+
+h1, h2{
+    text-align: center;
+}
+
