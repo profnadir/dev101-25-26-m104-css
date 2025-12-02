@@ -1,0 +1,79 @@
+les selecteurs : 
+
+simples : 
+     le nom de l'element img{
+
+     }
+
+     id #id{
+
+     }
+
+     classe .class{
+
+     }
+
+     *{
+
+     }
+
+     div, p, span{
+        color:red;
+     }
+
+     div.demo{
+        // div avec class demo
+     }
+
+     div#demo{
+        // div avec id demo
+     }
+
+    complexes ou cominatoires
+
+    div p // tous les paragraphes dans div
+    div > p // tous les paragraphes dans div (direct)
+    div + p // next sibling
+    div ~ p // 
+
+    div
+        p
+        p
+        section
+            p
+    p
+    p 
+    p
+
+    main#home div p span + i {
+
+    }
+
+    pseudo class : comportement // hover
+
+    pseudo element :: content // before
+
+    <a href=".com" target="_blank">dev101</a>
+    <a href="" >dev102</a>
+
+    a[href=".com"]{
+
+    }
+
+position
+
+static 
+relative 
+absolute
+sticky
+fixed
+
+float: right + left // clear:both
+
+flex
+
+100vw
+
+100vh
+
+img : 159
